@@ -1,4 +1,83 @@
 {
-  "q": "the United States and pacific rim contracting in oceania",
-  "country_name_label": "venues.country_name"
+    "resource": "/bitly",
+    "path": "/bitly",
+    "httpMethod": "POST",
+    "headers": {
+        "accept": "*/*",
+        "content-type": "application/json",
+        "Host": "myprefix.execute-api.us-east-1.amazonaws.com",
+        "User-Agent": "curl/7.64.1",
+        "X-Amzn-Trace-Id": "Root=1-5e20fa4d-344d1994f1ab32fc20aea178",
+        "X-Forwarded-For": "24.6.232.255",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "accept": [
+            "*/*"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "Host": [
+            "myprefix.execute-api.us-east-1.amazonaws.com"
+        ],
+        "User-Agent": [
+            "curl/7.64.1"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-5e20fa4d-344d1994f1ab32fc20aea178"
+        ],
+        "X-Forwarded-For": [
+            "124.6.232.255"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": {
+        "url": "http://www.google.com/"
+    },
+    "multiValueQueryStringParameters": {
+        "url": [
+            "http://www.google.com/"
+        ]
+    },
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "uy14jx",
+        "resourcePath": "/bitly",
+        "httpMethod": "POST",
+        "extendedRequestId": "GawMEESTIAMF0sw=",
+        "requestTime": "17/Jan/2020:00:05:33 +0000",
+        "path": "/prod/bitly",
+        "accountId": "12345",
+        "protocol": "HTTP/1.1",
+        "stage": "prod",
+        "domainPrefix": "myprefix",
+        "requestTimeEpoch": 1579219533120,
+        "requestId": "05ea27aa-7408-4bb6-a708-b4a8ac8315ae",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "94.6.232.255",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "curl/7.64.1",
+            "user": null
+        },
+        "domainName": "myprefix.execute-api.us-east-1.amazonaws.com",
+        "apiId": "myprefix"
+    },
+    "body": null,
+    "isBase64Encoded": false
 }

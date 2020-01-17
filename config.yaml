@@ -1,12 +1,12 @@
 region: us-east-1
 
-function_name: semantic_query_service
+function_name: lambda_bitly
 handler: service.handler
 role: lambda_api
 runtime: python3.8
-description: Map a search query into controlled vocabulary filters and a fulltext query using ITA Taxonomy API
+description: Wrapper around Bitly's URL Shortener service
 environment_variables:
-  TAXONOMIES_API_KEY: ${TAXONOMIES_API_KEY}
+  BITLY_GENERIC_ACCESS_TOKEN: ${BITLY_GENERIC_ACCESS_TOKEN}
 
 # if access key and secret are left blank, boto will use the credentials
 # defined in the [default] section of ~/.aws/credentials.
